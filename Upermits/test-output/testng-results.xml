@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18593" started-at="2017-01-14T18:26:45Z" finished-at="2017-01-14T18:27:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18593" started-at="2017-01-14T18:26:45Z" finished-at="2017-01-14T18:27:03Z">
+      <class name="com.upermits.scripts.Loginlogout">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.upermits.scripts.Loginlogout@7e0babb1]" name="preCondition" is-config="true" duration-ms="10388" started-at="2017-01-14T23:56:45Z" finished-at="2017-01-14T23:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="loginLogot()[pri:0, instance:com.upermits.scripts.Loginlogout@7e0babb1]" name="loginLogot" duration-ms="7946" started-at="2017-01-14T23:56:55Z" finished-at="2017-01-14T23:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogot -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.upermits.scripts.Loginlogout@7e0babb1]" name="postCondition" is-config="true" duration-ms="241" started-at="2017-01-14T23:57:03Z" finished-at="2017-01-14T23:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.upermits.scripts.Loginlogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
