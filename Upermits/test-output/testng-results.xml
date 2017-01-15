@@ -2,20 +2,31 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47528" started-at="2017-01-14T18:45:37Z" finished-at="2017-01-14T18:46:25Z">
+  <suite name="Default suite" duration-ms="21987" started-at="2017-01-15T08:55:56Z" finished-at="2017-01-15T08:56:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47528" started-at="2017-01-14T18:45:37Z" finished-at="2017-01-14T18:46:25Z">
+    <test name="Default test" duration-ms="21987" started-at="2017-01-15T08:55:56Z" finished-at="2017-01-15T08:56:18Z">
       <class name="com.upermits.scripts.Loginlogout">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.upermits.scripts.Loginlogout@7e0babb1]" name="preCondition" is-config="true" duration-ms="14801" started-at="2017-01-15T00:15:37Z" finished-at="2017-01-15T00:15:52Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.upermits.scripts.Loginlogout@6debcae2]" name="preCondition" is-config="true" duration-ms="10733" started-at="2017-01-15T14:25:56Z" finished-at="2017-01-15T14:26:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="loginLogot()[pri:0, instance:com.upermits.scripts.Loginlogout@7e0babb1]" name="loginLogot" duration-ms="30566" started-at="2017-01-15T00:15:52Z" finished-at="2017-01-15T00:16:23Z">
+        <test-method status="PASS" signature="loginLogout()[pri:0, instance:com.upermits.scripts.Loginlogout@6debcae2]" name="loginLogout" duration-ms="9124" started-at="2017-01-15T14:26:07Z" finished-at="2017-01-15T14:26:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginLogot -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.upermits.scripts.Loginlogout@7e0babb1]" name="postCondition" is-config="true" duration-ms="2130" started-at="2017-01-15T00:16:23Z" finished-at="2017-01-15T00:16:25Z">
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.upermits.scripts.Loginlogout@6debcae2]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-01-15T14:26:16Z" finished-at="2017-01-15T14:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginLogout status=SUCCESS method=Loginlogout.loginLogout()[pri:0, instance:com.upermits.scripts.Loginlogout@6debcae2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.upermits.scripts.Loginlogout@6debcae2]" name="postCondition" is-config="true" duration-ms="2099" started-at="2017-01-15T14:26:16Z" finished-at="2017-01-15T14:26:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->

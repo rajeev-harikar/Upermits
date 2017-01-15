@@ -6,7 +6,8 @@
       <class name="com.upermits.scripts.Loginlogout">
         <methods>
           <include name="preCondition"/>
-          <include name="loginLogot"/>
+          <include name="tearDown"/>
+          <include name="loginLogout"/>
           <include name="postCondition"/>
         </methods>
       </class> <!-- com.upermits.scripts.Loginlogout -->

@@ -20,6 +20,7 @@ public class SuperTestNG {
 	{
 		System.setProperty("webdriver.chrome.driver","./exefiles/chromedriver.exe");
 		driver=new ChromeDriver();
+		driver.manage().window().maximize();
 		String xl="./excelfiles/Config.xlsx";
 		String sheet="Sheet1";
 		String url = Excel.getCellValue(xl, sheet, 0, 1);
